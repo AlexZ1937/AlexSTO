@@ -9,11 +9,11 @@ namespace AlSTO1.Models
     {
         public string NAME { get; set; }
 
-        public IEnumerable<Service> Myservices { get; set; } 
-        public Master(string NAME_, IEnumerable<Service> service_)
+      
+        public Master(string NAME_)
         {
             this.NAME = NAME_;
-            this.Myservices = service_;
+           
         }
     }
 }
